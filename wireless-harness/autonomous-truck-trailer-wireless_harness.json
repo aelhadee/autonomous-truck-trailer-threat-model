@@ -1,0 +1,4138 @@
+{
+  "summary": {
+    "title": "TMT import",
+    "owner": null,
+    "description": "Imported from Microsoft Threat Modeling Tool .tm7 file"
+  },
+  "detail": {
+    "contributors": null,
+    "diagrams": [
+      {
+        "title": "Diagram 2",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "guid": "ce93c636-1b20-4277-b366-aa747d2a645b",
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1165,
+                "y": 315
+              },
+              "angle": 0,
+              "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "TCU"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 738,
+                "y": 268
+              },
+              "angle": 0,
+              "id": "76e6e047-e157-4efc-b811-1519eb9624d7",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "TCU"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 338,
+                "height": 100
+              },
+              "position": {
+                "x": 871,
+                "y": 81
+              },
+              "angle": 0,
+              "id": "6f809c93-aea6-4ac2-b810-9a9e552844bf",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "FMS"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 345,
+                "y": 323
+              },
+              "angle": 0,
+              "id": "00c3042b-b969-4b5c-b18b-6d959969683f",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Sensor Fusion ECU"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 297,
+                "y": 621
+              },
+              "angle": 0,
+              "id": "7c403297-e4fc-410d-b882-f316c908ad5d",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "CAN FD Bus"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 104,
+                "height": 100
+              },
+              "position": {
+                "x": 89,
+                "y": 351
+              },
+              "angle": 0,
+              "id": "42545a07-660e-494a-826c-f27eeb78cb5f",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "Sensor 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": true,
+              "reasonOutOfScope": null
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 105,
+                "height": 103
+              },
+              "position": {
+                "x": 88,
+                "y": 485
+              },
+              "angle": 0,
+              "id": "b0e32e64-7a17-46e2-8616-622b6befd732",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "Sensor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": true,
+              "reasonOutOfScope": null
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 960,
+                "y": 278
+              },
+              "target": {
+                "x": 960,
+                "y": 278
+              },
+              "vertices": [
+                {
+                  "x": 1520,
+                  "y": 278
+                },
+                {
+                  "x": 1520,
+                  "y": 708
+                },
+                {
+                  "x": 960,
+                  "y": 708
+                }
+              ],
+              "id": "42275a2a-80fd-43ba-a902-3ea7e9b76269",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Trailer Boundary"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 966,
+                "y": 561
+              },
+              "angle": 0,
+              "id": "d27a5940-ec3c-4409-bea5-9b5efdf3c60e",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ethernet Wi-Fi bridge"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 105,
+                "height": 103
+              },
+              "position": {
+                "x": 89,
+                "y": 626
+              },
+              "angle": 0,
+              "id": "372f4433-aac7-46ab-8844-b2e8fd4ae897",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "Sensor 3\r\n"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": true,
+              "reasonOutOfScope": null
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 595,
+                "y": 630
+              },
+              "angle": 0,
+              "id": "2cda34c3-858f-4934-83fe-4ad1a3791f88",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "J1939 CAN bus"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1411,
+                "y": 606
+              },
+              "angle": 0,
+              "id": "f78ddbed-3738-4411-bf15-49b587f8b75a",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Sensors"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1410,
+                "y": 511
+              },
+              "angle": 0,
+              "id": "15cffd04-8328-4426-a94e-28588afca373",
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Cameras"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1189,
+                "y": 578
+              },
+              "angle": 0,
+              "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Trailer ECU (Gateway)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 81,
+                "y": 239
+              },
+              "target": {
+                "x": 81,
+                "y": 239
+              },
+              "vertices": [
+                {
+                  "x": 857,
+                  "y": 239
+                },
+                {
+                  "x": 857,
+                  "y": 739
+                },
+                {
+                  "x": 81,
+                  "y": 739
+                }
+              ],
+              "id": "14e0d8a0-d30b-46fe-8d77-b98f56b21a30",
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Self-driving Truck Boundary"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1337,
+                "y": 335
+              },
+              "angle": 0,
+              "id": "d0e7574b-9b2b-4030-a19b-5bd01471f2cf",
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "GPS receiver"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 527,
+                "y": 241
+              },
+              "angle": 0,
+              "id": "aba9a177-3598-41f0-b9fa-289f45089197",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "GPS receiver"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 746,
+                "y": 552
+              },
+              "angle": 0,
+              "id": "20cbde23-7a25-42bb-8236-d17372cc6571",
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ethernet Wi-Fi bridge "
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 510,
+                "y": 433
+              },
+              "angle": 0,
+              "id": "a013a574-b914-4f66-9754-e9984497d4e3",
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Truck Gateway ECU"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 429,
+                "y": 631
+              },
+              "angle": 0,
+              "id": "6e98ce3b-599f-4989-9679-f68bb93fa755",
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "OBD II"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "42545a07-660e-494a-826c-f27eeb78cb5f"
+              },
+              "target": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "vertices": [
+                {
+                  "x": 267,
+                  "y": 327
+                }
+              ],
+              "id": "5f4519fa-9d27-4544-968a-afb6dbeb455e",
+              "z": 21,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Pretend to Be the Sensor 1 in Order to Exploit the Sensor Fusion ECU",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Manipulate Sensor Fusion ECU Data in Order to Exploit a Software Parsing Vulnerability",
+                  "description": "Elevation of privileges in order to manipulate Sensor Fusion ECU data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Flash Custom Firmware Onto the Sensor Fusion ECU in Order to Fully Control the Module",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Trick Sensor Fusion ECU Into Triggering an Emergency Stop",
+                  "description": "Spoofing the Sensor 1 in order to trick the Sensor Fusion ECU into triggering an emergency stop.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Manipulate the Projected Path of the Car",
+                  "description": "Spoofing Sensor 1 data in order to manipulate the projected path of the car",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Cause the Car to Perform Emergency Braking",
+                  "description": "Spoofing front Sensor 1 Cameras and Sensors data in order to trigger emergency braking.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Cause the Car to Move Out of the Lane",
+                  "description": "Spoofing Sensor 1 data in order to cause the car to move out of the lane.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensor Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "b0e32e64-7a17-46e2-8616-622b6befd732"
+              },
+              "target": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "vertices": [
+                {
+                  "x": 241,
+                  "y": 435
+                }
+              ],
+              "id": "2f786826-9b8e-4839-90de-ea0d7295b00c",
+              "z": 22,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Pretend to Be the Sensor 2 in Order to Exploit the Sensor Fusion ECU",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Manipulate Sensor Fusion ECU Data in Order to Exploit a Software Parsing Vulnerability",
+                  "description": "Elevation of privileges in order to manipulate Sensor Fusion ECU data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Flash Custom Firmware Onto the Sensor Fusion ECU in Order to Fully Control the Module",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Trick Sensor Fusion ECU Into Triggering an Emergency Stop",
+                  "description": "Spoofing the Sensor 2 in order to trick the Sensor Fusion ECU into triggering an emergency stop.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensor Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "372f4433-aac7-46ab-8844-b2e8fd4ae897"
+              },
+              "target": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "vertices": [
+                {
+                  "x": 257,
+                  "y": 541
+                }
+              ],
+              "id": "6b7048b4-fe9c-40fb-a3ae-6d8dff51ced4",
+              "z": 23,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Pretend to Be the Sensor 3  in Order to Exploit the Sensor Fusion ECU",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Manipulate Sensor Fusion ECU Data in Order to Exploit a Software Parsing Vulnerability",
+                  "description": "Elevation of privileges in order to manipulate Sensor Fusion ECU data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Flash Custom Firmware Onto the Sensor Fusion ECU in Order to Fully Control the Module",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Trick Sensor Fusion ECU Into Triggering an Emergency Stop",
+                  "description": "Spoofing the Sensor 3  in order to trick the Sensor Fusion ECU into triggering an emergency stop.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensor Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "f78ddbed-3738-4411-bf15-49b587f8b75a"
+              },
+              "target": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "vertices": [
+                {
+                  "x": 1337,
+                  "y": 659
+                }
+              ],
+              "id": "70eff22d-4d85-4a0f-bed1-e9467fdaa1da",
+              "z": 24,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Attempt to Flash the Trailer ECU With Custom Firmware",
+                  "description": "Elevation of privileges in order to gain complete control of Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Manipulate Data in Transit to the Trailer ECU, Potentially Causing the Car to React Differently",
+                  "description": "Tamper with data in transit sent to the Trailer ECU (Gateway), potentially causing the car to react differently",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Trick Trailer ECU Into Triggering an Emergency Stop",
+                  "description": "Spoofing the Sensors in order to trick the Trailer ECU (Gateway) into triggering an emergency stop.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensor Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "15cffd04-8328-4426-a94e-28588afca373"
+              },
+              "target": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "vertices": [
+                {
+                  "x": 1341,
+                  "y": 571
+                }
+              ],
+              "id": "89a50828-b7ea-43c4-a745-6a98315f1aae",
+              "z": 25,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Attempt to Flash the Trailer ECU With Custom Firmware",
+                  "description": "Elevation of privileges in order to gain complete control of Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Manipulate Data in Transit to the Trailer ECU, Potentially Causing the Car to React Differently",
+                  "description": "Tamper with data in transit sent to the Trailer ECU (Gateway), potentially causing the car to react differently",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Cause the Car to Perform Emergency Braking",
+                  "description": "Spoofing front Cameras Cameras and Sensors data in order to trigger emergency braking.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensor Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "target": {
+                "id": "d27a5940-ec3c-4409-bea5-9b5efdf3c60e"
+              },
+              "vertices": [
+                {
+                  "x": 1114,
+                  "y": 663
+                }
+              ],
+              "id": "48defdc3-a9b5-41fa-bf32-90cc8368e6cf",
+              "z": 26,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi Access Point to Crash or Stop Remotely",
+                  "description": "DoS on Ethernet Wi-Fi bridge that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Wi Fi Access Point With Invalid Data",
+                  "description": "DoS on Ethernet Wi-Fi bridge by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Wi Fi Access Point Offline",
+                  "description": "DoS on Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Wi Fi Access Point in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi-Ethernet to Crash or Stop",
+                  "description": "DoS on Ethernet Wi-Fi bridge that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensors and Trailer ECU Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "target": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "vertices": [
+                {
+                  "x": 529,
+                  "y": 354
+                }
+              ],
+              "id": "6ffd27de-7d83-412f-b118-46b07c3b47cd",
+              "z": 27,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Pretend to Be the Gateway in Order to Exploit the Sensor Fusion ECU",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Manipulate Sensor Fusion ECU Data in Order to Exploit a Software Parsing Vulnerability",
+                  "description": "Elevation of privileges in order to manipulate Sensor Fusion ECU data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Flash Custom Firmware Onto the Sensor Fusion ECU in Order to Fully Control the Module",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Sensor Fusion ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Sensor Fusion ECU Offline",
+                  "description": "DoS on Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Sensor Fusion ECU With Invalid Data",
+                  "description": "DoS on Sensor Fusion ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Disable Sensor Fusion ECU Functions",
+                  "description": "DoS on Sensor Fusion ECU by flooding with invalid data, disabling it functions.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Sensor Fusion ECU to Crash or Stop Remotely",
+                  "description": "DoS on Sensor Fusion ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Sensor Fusion ECU to Crash or Stop",
+                  "description": "DoS on Sensor Fusion ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Trailer Sensors Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "d27a5940-ec3c-4409-bea5-9b5efdf3c60e"
+              },
+              "target": {
+                "id": "20cbde23-7a25-42bb-8236-d17372cc6571"
+              },
+              "vertices": [
+                {
+                  "x": 928,
+                  "y": 508
+                }
+              ],
+              "id": "ac185855-58cf-4ea2-b682-b5c85c62bdf6",
+              "z": 28,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Wi Fi in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Wi Fi Offline",
+                  "description": "DoS on Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Wi Fi With Invalid Data",
+                  "description": "DoS on Ethernet Wi-Fi bridge  by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi to Crash or Stop Remotely",
+                  "description": "DoS on Ethernet Wi-Fi bridge  that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Wi Fi Denies Writing Data",
+                  "description": "Ethernet Wi-Fi bridge  claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensors and Trailer ECU data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "20cbde23-7a25-42bb-8236-d17372cc6571"
+              },
+              "target": {
+                "id": "d27a5940-ec3c-4409-bea5-9b5efdf3c60e"
+              },
+              "vertices": [
+                {
+                  "x": 907,
+                  "y": 642
+                }
+              ],
+              "id": "52a150f9-7a9e-418a-ab5f-2699b3298204",
+              "z": 29,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi to Crash or Stop Remotely",
+                  "description": "DoS on Ethernet Wi-Fi bridge that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Wi Fi With Invalid Data",
+                  "description": "DoS on Ethernet Wi-Fi bridge by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Wi Fi Offline",
+                  "description": "DoS on Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Wi Fi in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Ethernet Wi-Fi bridge.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Wi Fi Denies Writing Data",
+                  "description": "Ethernet Wi-Fi bridge claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Truck ECU data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "d27a5940-ec3c-4409-bea5-9b5efdf3c60e"
+              },
+              "target": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "vertices": [
+                {
+                  "x": 1125,
+                  "y": 580
+                }
+              ],
+              "id": "8371ce2d-355c-4020-ad30-4a6d9cd3a1a2",
+              "z": 30,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Manipulate Data in Transit to the Trailer ECU, Potentially Causing the Car to React Differently",
+                  "description": "Tamper with data in transit sent to the Trailer ECU (Gateway), potentially causing the car to react differently",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Trailer ECU to Crash or Stop Remotely",
+                  "description": "DoS on Trailer ECU (Gateway) that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Trailer ECU With Invalid Data",
+                  "description": "DoS on Trailer ECU (Gateway) by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Trailer ECU Offline",
+                  "description": "DoS on Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Attempt to Flash the Trailer ECU With Custom Firmware",
+                  "description": "Elevation of privileges in order to gain complete control of Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Trailer ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Trailer ECU to Crash or Stop",
+                  "description": "DoS on Trailer ECU (Gateway) that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Truck ECU Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "target": {
+                "id": "20cbde23-7a25-42bb-8236-d17372cc6571"
+              },
+              "vertices": [
+                {
+                  "x": 684,
+                  "y": 538
+                }
+              ],
+              "id": "1980f4d2-c025-42bc-b691-b67328b93a21",
+              "z": 31,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi to Crash or Stop Remotely",
+                  "description": "DoS on Ethernet Wi-Fi bridge  that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Wi Fi With Invalid Data",
+                  "description": "DoS on Ethernet Wi-Fi bridge  by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Wi Fi Offline",
+                  "description": "DoS on Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Wi Fi in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Ethernet Wi-Fi bridge .",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Wi Fi-Ethernet  to Crash or Stop",
+                  "description": "DoS on Ethernet Wi-Fi bridge  that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Truck ECU Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "20cbde23-7a25-42bb-8236-d17372cc6571"
+              },
+              "target": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "vertices": [
+                {
+                  "x": 724,
+                  "y": 475
+                }
+              ],
+              "id": "87ea8b0e-4945-428a-adc0-e4a96660422e",
+              "z": 32,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Gateway to Crash or Stop Remotely",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Gateway With Invalid Data",
+                  "description": "DoS on Truck Gateway ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Gateway Offline",
+                  "description": "DoS on Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Gateway in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sensors and Trailer ECU data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "target": {
+                "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75"
+              },
+              "vertices": [
+                {
+                  "x": 1206,
+                  "y": 473
+                }
+              ],
+              "id": "9a0bf269-5509-43ce-a097-13cad8650c76",
+              "z": 33,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75"
+              },
+              "target": {
+                "id": "dc7a52da-1c4a-48af-97ff-3443dddd04ff"
+              },
+              "vertices": [
+                {
+                  "x": 1283,
+                  "y": 467
+                }
+              ],
+              "id": "cca8a769-2632-4183-92dc-eb8b4d23362c",
+              "z": 34,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Manipulate Data in Transit to the Trailer ECU, Potentially Causing the Car to React Differently",
+                  "description": "Tamper with data in transit sent to the Trailer ECU (Gateway), potentially causing the car to react differently",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Trailer ECU to Crash or Stop Remotely",
+                  "description": "DoS on Trailer ECU (Gateway) that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Trailer ECU With Invalid Data",
+                  "description": "DoS on Trailer ECU (Gateway) by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Trailer ECU Offline",
+                  "description": "DoS on Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Attempt to Flash the Trailer ECU With Custom Firmware",
+                  "description": "Elevation of privileges in order to gain complete control of Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Trailer ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Trailer ECU (Gateway).",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Trailer ECU to Crash or Stop",
+                  "description": "DoS on Trailer ECU (Gateway) that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "target": {
+                "id": "76e6e047-e157-4efc-b811-1519eb9624d7"
+              },
+              "vertices": [
+                {
+                  "x": 627,
+                  "y": 372
+                }
+              ],
+              "id": "d842ac64-e6c1-42d3-b4d4-842ca8716e7d",
+              "z": 35,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "76e6e047-e157-4efc-b811-1519eb9624d7"
+              },
+              "target": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "vertices": [
+                {
+                  "x": 700,
+                  "y": 423
+                }
+              ],
+              "id": "73653d6b-9886-4cda-a019-13741e3155ea",
+              "z": 36,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop Remotely",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Truck Gateway ECU With Invalid Data",
+                  "description": "DoS on Truck Gateway ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Truck Gateway ECU Offline",
+                  "description": "DoS on Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Truck Gateway ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Wi-Fi Credentials",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "76e6e047-e157-4efc-b811-1519eb9624d7"
+              },
+              "target": {
+                "id": "6f809c93-aea6-4ac2-b810-9a9e552844bf"
+              },
+              "vertices": [
+                {
+                  "x": 776,
+                  "y": 146
+                }
+              ],
+              "id": "6798c1fb-b051-49b6-92e4-6ac213ebda45",
+              "z": 37,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Cross Site Scripting",
+                  "description": "The FMS could be a subject to a cross-site scripting attack because it does not sanitize untrusted input.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Web Server Denies Writing Data",
+                  "description": "FMS claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from FMS.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Web Server to Crash or Stop Remotely",
+                  "description": "DoS on FMS that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Web Server With Invalid Data",
+                  "description": "DoS on FMS by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Web Server Offline",
+                  "description": "DoS on FMS.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Web Server in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the FMS.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Weak Authentication Scheme",
+                  "description": "Custom authentication schemes are susceptible to common weaknesses such as weak credential change management, credential equivalence, easily guessable credentials, null credentials, downgrade authentication or a weak credential change management system.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Wi-Fi Credentials Request\r\nCertificate\r\nLocation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "6f809c93-aea6-4ac2-b810-9a9e552844bf"
+              },
+              "target": {
+                "id": "76e6e047-e157-4efc-b811-1519eb9624d7"
+              },
+              "vertices": [
+                {
+                  "x": 924,
+                  "y": 229
+                }
+              ],
+              "id": "9229a47f-93c0-4d6b-8655-25d2cd692cc4",
+              "z": 38,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "TCU Denies Writing Data",
+                  "description": "TCU claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Wi-Fi Credentials",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75"
+              },
+              "target": {
+                "id": "6f809c93-aea6-4ac2-b810-9a9e552844bf"
+              },
+              "vertices": [
+                {
+                  "x": 1161,
+                  "y": 218
+                }
+              ],
+              "id": "c1ff579b-17f6-4e05-b90c-3035f6397379",
+              "z": 39,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Cross Site Scripting",
+                  "description": "The FMS could be a subject to a cross-site scripting attack because it does not sanitize untrusted input.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Web Server Denies Writing Data",
+                  "description": "FMS claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from FMS.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Web Server to Crash or Stop Remotely",
+                  "description": "DoS on FMS that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Web Server With Invalid Data",
+                  "description": "DoS on FMS by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Web Server Offline",
+                  "description": "DoS on FMS.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Web Server in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the FMS.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "6f809c93-aea6-4ac2-b810-9a9e552844bf"
+              },
+              "target": {
+                "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75"
+              },
+              "vertices": [
+                {
+                  "x": 1239,
+                  "y": 205
+                }
+              ],
+              "id": "2f08c4af-ab11-459f-bd89-d801ae74e84e",
+              "z": 40,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "TCU Denies Writing Data",
+                  "description": "TCU claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "aba9a177-3598-41f0-b9fa-289f45089197"
+              },
+              "target": {
+                "id": "76e6e047-e157-4efc-b811-1519eb9624d7"
+              },
+              "vertices": [
+                {
+                  "x": 670,
+                  "y": 289
+                }
+              ],
+              "id": "ea60ddab-d121-4a77-81be-0063b4543e30",
+              "z": 41,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Spoof GPS Signals and Deliver Malicious GPS Data in Order to Cause Drift Off Course",
+                  "description": "Spoofing the GPS receiver in order to deliver malicious GPS Data - in order to cause drift off course.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Jam GPS Signal",
+                  "description": "DoS on the GPS antenna by jamming the signal being received by the car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Location",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "d0e7574b-9b2b-4030-a19b-5bd01471f2cf"
+              },
+              "target": {
+                "id": "618ce21b-ef23-4185-9d5c-ce40ce58bb75"
+              },
+              "vertices": [
+                {
+                  "x": 1303,
+                  "y": 366
+                }
+              ],
+              "id": "cbeae42a-4eef-403a-b7f4-567fb927f990",
+              "z": 42,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Spoof GPS Signals and Deliver Malicious GPS Data in Order to Cause Drift Off Course",
+                  "description": "Spoofing the GPS receiver in order to deliver malicious GPS Data - in order to cause drift off course.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Modify Data Being Sent to the TCU While in Transit",
+                  "description": "Tamper with data in trasit sent to the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Car Could be Tracked",
+                  "description": "Information disclosure by performing a MITM attack in order to track a car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the TCU to Crash or Stop Remotely",
+                  "description": "DoS on TCU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood TCU With Invalid Data",
+                  "description": "DoS on TCU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Jam GPS Signal",
+                  "description": "DoS on the GPS antenna by jamming the signal being received by the car.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the TCU Offline",
+                  "description": "DoS on TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the TCU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the TCU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the TCU Firmware in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the TCU firmware.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Location",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "2cda34c3-858f-4934-83fe-4ad1a3791f88"
+              },
+              "target": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "vertices": [
+                {
+                  "x": 592,
+                  "y": 564
+                }
+              ],
+              "id": "56b98839-df26-4773-a987-635492954fcf",
+              "z": 43,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop Remotely",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Truck Gateway ECU With Invalid Data",
+                  "description": "DoS on Truck Gateway ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Truck Gateway ECU Offline",
+                  "description": "DoS on Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Truck Gateway ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Truck Gateway ECU.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "7c403297-e4fc-410d-b882-f316c908ad5d"
+              },
+              "target": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "vertices": [
+                {
+                  "x": 436,
+                  "y": 519
+                }
+              ],
+              "id": "ef836d4d-7393-4a35-910e-9a5f0eeb1b67",
+              "z": 44,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Truck Gateway ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Truck Gateway ECU Offline",
+                  "description": "DoS on Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Truck Gateway ECU With Invalid Data",
+                  "description": "DoS on Truck Gateway ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop Remotely",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "target": {
+                "id": "7c403297-e4fc-410d-b882-f316c908ad5d"
+              },
+              "vertices": [
+                {
+                  "x": 459,
+                  "y": 545
+                }
+              ],
+              "id": "ebd2753e-fddb-4b1b-95c7-1ba6ab6152b4",
+              "z": 45,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the J1939CAN Bus in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the CAN FD Bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the J1939CAN Bus Offline",
+                  "description": "DoS on CAN FD Bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood J1939CAN Bus With Invalid Data",
+                  "description": "DoS on CAN FD Bus by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the J1939CAN Bus to Crash or Stop Remotely",
+                  "description": "DoS on CAN FD Bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the J1939CAN Bus to Crash or Stop",
+                  "description": "DoS on CAN FD Bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from CAN FD Bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "target": {
+                "id": "2cda34c3-858f-4934-83fe-4ad1a3791f88"
+              },
+              "vertices": [
+                {
+                  "x": 636,
+                  "y": 582
+                }
+              ],
+              "id": "c9410233-3d9b-4fc6-9383-6dc22385e828",
+              "z": 46,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the CAN FD in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the J1939 CAN bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the CAN FD Offline",
+                  "description": "DoS on J1939 CAN bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood CAN FD With Invalid Data",
+                  "description": "DoS on J1939 CAN bus by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the CAN FD to Crash or Stop Remotely",
+                  "description": "DoS on J1939 CAN bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the CAN FD to Crash or Stop",
+                  "description": "DoS on J1939 CAN bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from J1939 CAN bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "target": {
+                "id": "7c403297-e4fc-410d-b882-f316c908ad5d"
+              },
+              "vertices": [
+                {
+                  "x": 343,
+                  "y": 490
+                }
+              ],
+              "id": "76cc32ae-4a7c-4f71-bebc-c5ce7d99901f",
+              "z": 47,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from CAN FD Bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the CAN FD Bus to Crash or Stop",
+                  "description": "DoS on CAN FD Bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the CAN FD Bus to Crash or Stop Remotely",
+                  "description": "DoS on CAN FD Bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood CAN FD Bus With Invalid Data",
+                  "description": "DoS on CAN FD Bus by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the CAN FD Bus Offline",
+                  "description": "DoS on CAN FD Bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the CAN FD Bus in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the CAN FD Bus.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "7c403297-e4fc-410d-b882-f316c908ad5d"
+              },
+              "target": {
+                "id": "00c3042b-b969-4b5c-b18b-6d959969683f"
+              },
+              "vertices": [
+                {
+                  "x": 402,
+                  "y": 492
+                }
+              ],
+              "id": "9b3f67b0-7c98-413f-be04-a8c477701ad4",
+              "z": 48,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Sensor Fusion ECU to Crash or Stop",
+                  "description": "DoS on Sensor Fusion ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Sensor Fusion ECU to Crash or Stop Remotely",
+                  "description": "DoS on Sensor Fusion ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Disable Sensor Fusion ECU Functions",
+                  "description": "DoS on Sensor Fusion ECU by flooding with invalid data, disabling it functions.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Sensor Fusion ECU With Invalid Data",
+                  "description": "DoS on Sensor Fusion ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Sensor Fusion ECU Offline",
+                  "description": "DoS on Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Sensor Fusion ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Flash Custom Firmware Onto the Sensor Fusion ECU in Order to Fully Control the Module",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Manipulate Sensor Fusion ECU Data in Order to Exploit a Software Parsing Vulnerability",
+                  "description": "Elevation of privileges in order to manipulate Sensor Fusion ECU data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Reflash the Sensor Fusion ECU From the CAN Bus in Order to Send Arbitrary CAN Messages",
+                  "description": "Elevation of privileges in order to reflash the Sensor Fusion ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Pretend to Be the CAN FD Bus in Order to Exploit the Sensor Fusion ECU",
+                  "description": "Elevation of privileges in order to exploit the Sensor Fusion ECU.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": null,
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "6e98ce3b-599f-4989-9679-f68bb93fa755"
+              },
+              "target": {
+                "id": "a013a574-b914-4f66-9754-e9984497d4e3"
+              },
+              "vertices": [
+                {
+                  "x": 511,
+                  "y": 576
+                }
+              ],
+              "id": "fa3be76c-ed5f-462f-803a-33d62e65ae49",
+              "z": 49,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the Truck Gateway ECU to Crash or Stop Remotely",
+                  "description": "DoS on Truck Gateway ECU that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood Truck Gateway ECU With Invalid Data",
+                  "description": "DoS on Truck Gateway ECU by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the Truck Gateway ECU Offline",
+                  "description": "DoS on Truck Gateway ECU.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the Truck Gateway ECU in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the Truck Gateway ECU.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "UDS \r\n(DoIP)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "6e98ce3b-599f-4989-9679-f68bb93fa755"
+              },
+              "target": {
+                "id": "2cda34c3-858f-4934-83fe-4ad1a3791f88"
+              },
+              "vertices": [
+                {
+                  "x": 563,
+                  "y": 678
+                }
+              ],
+              "id": "2c5aeda0-bd0d-49cf-bd10-88de3a9f364c",
+              "z": 50,
+              "hasOpenThreats": null,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Data Flow Sniffing",
+                  "description": "Data flowing across [Generic Data Flow] may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. In general, as a way to compromise both integrity and availability. Severity might change depending on the attacker's access vector.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information Disclosure",
+                  "title": "Updates Could Be Downloaded From a Web Server Resulting in Potentially Sensitive Information Being Disclosed",
+                  "description": "Information disclosure by downloading the updates from J1939 CAN bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the J1939 CAN bus to Crash or Stop",
+                  "description": "DoS on J1939 CAN bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Cause the J1939 CAN bus to Crash or Stop Remotely",
+                  "description": "DoS on J1939 CAN bus that crashes, halts, stops or runs slowly; in all cases violating an availability metric.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Flood J1939 CAN bus With Invalid Data",
+                  "description": "DoS on J1939 CAN bus by flooding with invalid data.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of Service",
+                  "title": "Take the J1939 CAN bus Offline",
+                  "description": "DoS on J1939 CAN bus.",
+                  "mitigation": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of Privilege",
+                  "title": "Compromise the J1939 CAN bus in Order to Deliver Malicious Updates",
+                  "description": "Elevation of privileges in order to exploit the J1939 CAN bus.",
+                  "mitigation": ""
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              },
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "UDS\r\n(DoCAN)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "outOfScope": false
+            }
+          ]
+        },
+        "size": {
+          "height": 0,
+          "width": 0
+        },
+        "diagramType": "STRIDE"
+      }
+    ],
+    "reviewer": null
+  }
+}
